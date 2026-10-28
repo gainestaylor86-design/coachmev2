@@ -377,7 +377,7 @@ elif nav == '2. View Diagnostic Results':
             for c_id in high_triad:
                 st.info(f**CVA {c_id}: {CVA_INFO[c_id]['name']}** ({CVA_INFO[c_id]['tagline']})
 
-{CVA_INFO[c_id]['description']}")
+{CVA_INFO[c_id]['description']})
 
         with tcol2:
             st.markdown('#### ⚡ Mid Triad (Supporting Strengths)')
