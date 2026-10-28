@@ -375,7 +375,7 @@ elif nav == '2. View Diagnostic Results':
             st.markdown('#### 🔥 High Triad (Person Code)')
             st.write('These top 3 areas form your core wiring and natural strengths.')
             for c_id in high_triad:
-                st.info(f"**CVA {c_id}: {CVA_INFO[c_id]['name']}** ({CVA_INFO[c_id]['tagline']})
+                st.info(f**CVA {c_id}: {CVA_INFO[c_id]['name']}** ({CVA_INFO[c_id]['tagline']})
 
 {CVA_INFO[c_id]['description']}")
 
